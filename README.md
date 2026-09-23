@@ -1,20 +1,22 @@
 Simple Python Monthly Expense Tracker
 
-Overview of the Project
+Overview of the Project:
 
 The Simple Python Monthly Expense Tracker is a beginner-friendly, command-line application designed to help individuals record, track, and review their daily financial expenses easily. It stores all transaction data safely in a local text file so that your records are never lost.
 
-Features
 
-Add Expenses: Input custom expense names and monetary amounts.
+Features:
 
-View Expenses: Display a clear list of all recorded expenses saved in the system.
+Add Expenses- Input custom expense names and monetary amounts.
 
-Data Persistence: Automatically saves every entry into a local expenses.txt file.
+View Expenses - Display a clear list of all recorded expenses saved in the system.
 
-Simple Navigation: Interactive menu driven by basic numbers.
+Data Persistence- Automatically saves every entry into a local expenses.txt file.
 
-Technologies/Tools Used
+Simple Navigation- Interactive menu driven by basic numbers.
+
+
+Technologies/Tools Used:
 
 Python 3: The core programming language used to build the logic.
 
