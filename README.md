@@ -1,51 +1,50 @@
-Simple Python Monthly Expense Tracker
+# Monthly Expense Tracker
 
-Overview of the Project:
+A simple, command-line-based Monthly Expense Tracker built using core Python. This application allows users to add, view, and delete daily expenses with local file storage.
 
-The Simple Python Monthly Expense Tracker is a beginner-friendly, command-line application designed to help individuals record, track, and review their daily financial expenses easily. It stores all transaction data safely in a local text file so that your records are never lost.
+---
 
+## Features
 
-Features:
-
-Add Expenses- Input custom expense names and monetary amounts.
-
-View Expenses - Display a clear list of all recorded expenses saved in the system.
-
-Data Persistence- Automatically saves every entry into a local expenses.txt file.
-
-Simple Navigation- Interactive menu driven by basic numbers.
-
-
-Technologies/Tools Used:
-
-Python 3: The core programming language used to build the logic.
-
-Command Line / Terminal: The interface used to run and interact with the application.
-
-Steps to Install & Run the Project:
+* **Add Expense:** enter a new expense item and its price
+* **View Expenses:** Display all recorded in a  numbered list.
+* **Delete Expense:** Remove unwanted or incorrect expense records.
+* **Data Persistence:** Automatically saves all records locally to a text file (`expenses.txt`).
 
 
 
-Navigate to the project folder using the cd command (or drag and drop the folder into the terminal).
+## Technologies Used
 
-Run the program by typing the following command and pressing Enter:
-
-python main.py
+* **Python 3.x** (no external libraries required)
 
 
-Instructions for Testing:
 
-Run the script using python main.py.
+## Project Structure
 
-Type 1 and press Enter to add a test expense (e.g., item: Coffee, amount: 5). Verify that the "Added successfully!" message appears.
-
-Type 2 and press Enter to view expenses. Verify that Coffee and 5 appear correctly on the screen.
-
-Type 3 and press Enter to safely exit the application.
-
-Check your project folder to confirm that an expenses.txt file has been automatically created with your data.
+The project is organized into modular files:
+* `main.py`: Runs the interactive command-line menu loop.
+* `expense_manager.py`: Contains the core logic for adding, viewing, and deleting expenses.
+* `file_handler.py`: Handles reading from and writing to the local data file.
 
 
-Screenshots:
-<img width="1656" height="416" alt="Screenshot 2026-09-23 200546" src="https://github.com/user-attachments/assets/efd6257f-0f88-4f39-a6b2-605db50d22a9" />
+
+## How to Install and Run
+
+1. **Clone or Download** this repository to your local machine.
+2. Open your terminal or command prompt inside the project folder.
+3. Run the application using the following command:
+   ```bash
+   python main.py
+
+
+**How to Test**
+Start the application by running python main.py.
+
+Choose option 1 to add a test expense (e.g., Name: Coffee, Amount: 50).
+
+Choose option 2 to verify that the expense appears in the list.
+
+Choose option 3 to test deleting the expense.
+
+Choose option 4 to exit the application.
 
