@@ -48,3 +48,9 @@ Choose option 3 to test deleting the expense.
 
 Choose option 4 to exit the application.
 
+
+**Screenshot**
+
+<img width="1656" height="416" alt="Screenshot 2026-09-23 200546" src="https://github.com/user-attachments/assets/b4058beb-13ef-47c9-9e5a-d1ef6cf66986" />
+
+
