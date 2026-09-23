@@ -12,8 +12,7 @@ Setup and Execution Instructions:
 Download the Repository:
 Open your terminal and clone the repository using your repository URL:
 
-git clone https://github.com/{github-username}/{repo-name}
-cd {repo-name}
+git clone https://github.com/Reeds-09/Expense-Tracker
 
 
 Configuration:
