@@ -1,33 +1,49 @@
-# Expense-Tracker
-A simple expanse tracker made with python coding language. Allows user to enter ,view and add all of its expenses
+Simple Python Monthly Expense Tracker
 
-Prerequisites
+Overview of the Project
 
-Python: Ensure Python is installed on your operating system. You can verify your installation by running:
-python --version
+The Simple Python Monthly Expense Tracker is a beginner-friendly, command-line application designed to help individuals record, track, and review their daily financial expenses easily. It stores all transaction data safely in a local text file so that your records are never lost.
+
+Features
+
+Add Expenses: Input custom expense names and monetary amounts.
+
+View Expenses: Display a clear list of all recorded expenses saved in the system.
+
+Data Persistence: Automatically saves every entry into a local expenses.txt file.
+
+Simple Navigation: Interactive menu driven by basic numbers.
+
+Technologies/Tools Used
+
+Python 3: The core programming language used to build the logic.
+
+Command Line / Terminal: The interface used to run and interact with the application.
+
+Steps to Install & Run the Project:
 
 
-Setup and Execution Instructions:
 
-Download the Repository:
-Open your terminal and clone the repository using your repository URL:
+Navigate to the project folder using the cd command (or drag and drop the folder into the terminal).
 
-git clone https://github.com/Reeds-09/Expense-Tracker
-
-
-Configuration:
-No external configuration or environment variables are required. The application automatically creates and manages a local text file named expenses.txt in the root directory to store your data.
-
-Run the Application:
-Execute the Python script directly from your command line:
+Run the program by typing the following command and pressing Enter:
 
 python main.py
 
 
-Using the Application:
+Instructions for Testing:
 
-Enter 1 to add a new expense by providing an item name and amount.
+Run the script using python main.py.
 
-Enter 2 to view all previously recorded expenses.
+Type 1 and press Enter to add a test expense (e.g., item: Coffee, amount: 5). Verify that the "Added successfully!" message appears.
 
-Enter 3 to exit the program.
+Type 2 and press Enter to view expenses. Verify that Coffee and 5 appear correctly on the screen.
+
+Type 3 and press Enter to safely exit the application.
+
+Check your project folder to confirm that an expenses.txt file has been automatically created with your data.
+
+
+Screenshots:
+<img width="1656" height="416" alt="Screenshot 2026-09-23 200546" src="https://github.com/user-attachments/assets/efd6257f-0f88-4f39-a6b2-605db50d22a9" />
+
