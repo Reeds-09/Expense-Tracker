@@ -37,6 +37,14 @@ The project is organized into modular files:
    python main.py
 
 
+# #Installing directly from command prompt
+
+1. Open command prompt and enter - git clone https://github.com/Reeds-09/Expense-Tracker
+2.cd Reeds-09/Expense-Tracker
+3.python main.py
+
+
+
 **How to Test**
 Start the application by running python main.py.
 
