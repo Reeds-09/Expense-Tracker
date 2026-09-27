@@ -46,7 +46,9 @@ The project is organized into modular files:
 3. python main.py  .
 
 
-**How to Test**
+
+
+# How to Test
 Start the application by running python main.py.
 
 Choose option 1 to add a test expense (e.g., Name: Coffee, Amount: 50).
