@@ -39,9 +39,9 @@ The project is organized into modular files:
 
 # #Installing directly from command prompt
 
-1. Open command prompt and enter - git clone https://github.com/Reeds-09/Expense-Tracker
-2.cd Reeds-09/Expense-Tracker
-3.python main.py
+1. Open command prompt and enter - git clone https://github.com/Reeds-09/Expense-Tracker.
+2.cd Reeds-09/Expense-Tracker.
+3.python main.py  .
 
 
 
