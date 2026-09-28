@@ -37,13 +37,41 @@ The project is organized into modular files:
    python main.py
 
 
-## Installing directly from command prompt
+## ▶️ How to Run
 
-1. Open command prompt and enter - git clone https://github.com/Reeds-09/Expense-Tracker.
+### Step 1: Clone the Repository
 
-2. cd Reeds-09/Expense-Tracker.
+```bash
+git clone https://github.com/Reeds-09/Expense-Tracker.git
+```
 
-3. python main.py  .
+### Step 2: Open the Project
+
+```bash
+cd Expense-Tracker
+```
+
+### Step 3: Run the Program
+
+```bash
+python main.py
+```
+
+If your system uses `python3`, use:
+
+```bash
+python3 main.py
+```
+
+---
+
+## 🧪 Testing
+
+After cloning the project, run:
+
+```bash
+python main.py
+```
 
 
 
